@@ -2,7 +2,7 @@ package circularQueue;
 
 public class RunQueue {
 
-	public static void main(String[] args) throws QueueEmptyException {
+	public static void main(String[] args) {
 		Queue queue = new CircularArrayQueue();
 		queue.enqueue("A");
 		queue.enqueue("B");
